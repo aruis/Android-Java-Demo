@@ -9,7 +9,9 @@
             android:id="@+id/itemImageView" android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"/>
     <TextView android:id="@+id/mainTW" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textColor="@android:color/darker_gray"
               android:textSize="30sp"/>
     <TextView android:id="@+id/subTW" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textColor="@android:color/darker_gray"
               android:layout_below="@id/mainTW" android:textSize="20sp"/>
 </RelativeLayout>
